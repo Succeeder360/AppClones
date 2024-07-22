@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "src/navigation/(tabss)/newr.tsx"  ]
+, "src/navigation/(tabss)/newr.tsx", "src/component/renderItems/index.js", "src/categories/categoryone.jsx"  ]
 }
