@@ -1,16 +1,20 @@
 
-import {View, Text, FlatList} from "react-native"
-import { CategoriesData } from "@/src/data/categoriesData"
+import {View, Text, FlatList, SectionList} from "react-native"
+import { CategoriesData } from "@/src/data/middleCategoryData"
 import RenderCategories from "@/src/component/renderItems/categoriesItem"
+import RenderTop from "../HomeScreen/renderer/renderTop"
+import RenderMiddle from "../HomeScreen/renderer/renderMiddle"
 
 
 
-export default function CategoriesScreen(){
-    return(
-        <View style = {{backgroundColor:"red", flex:1}}>
-        <FlatList
-        data={CategoriesData}
-         renderItem={ ({item}) => <RenderCategories item={item} />}/>
+const CategoriesScreen = () => {
+    return (
+      <View  style = {{backgroundColor:"#fff", flex:1}}>
+       
+      
+      
+      
       </View>
-    )
-}
+    );
+  };
+  export default CategoriesScreen;

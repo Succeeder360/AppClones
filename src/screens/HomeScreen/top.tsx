@@ -1,5 +1,5 @@
 import RenderCategories from "@/src/component/renderItems/categoriesItem";
-import { CategoriesData, TopCategory } from "@/src/data/categoriesData";
+import { TopCategoryData } from "@/src/data/topCategoryData";
 import { categoryTypes } from "@/src/types/categoryTypes";
 import {Text, View, Image} from "react-native"
 import { FlatList } from "react-native"
@@ -11,7 +11,7 @@ const HomeScreenTop = () => {
     return(
         <View style = {{backgroundColor:"#fff", flex:1, top:10}}>
         <FlatList
-         data={TopCategory}
+         data={TopCategoryData}
          renderItem={({item}) => <RenderTop item={item}/>}
          horizontal 
          showsHorizontalScrollIndicator = {false}

@@ -16,8 +16,10 @@ export default function AccountScreen(){
                 <Text style = {{color:"darkblue", flex:1, fontSize:16, top:3}}>Login to see your balance</Text>
 
             </View>
-            <SectionList
+            <SectionList 
+
       sections={Accountdata}
+      showsVerticalScrollIndicator  = {true}
       stickySectionHeadersEnabled = {false}
       keyExtractor={(item, index) => item.item + index}
       renderItem={({item, section}) => <RenderItem item = {item}  sectionId={section.id}/>}
@@ -30,6 +32,7 @@ export default function AccountScreen(){
        <Text style = {{top:20, color:"orange", fontSize:15, fontWeight:"500"}}>Logout</Text>
        </View>
     }
+   
     />
         </View>
     )
