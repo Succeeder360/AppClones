@@ -5,7 +5,7 @@ export const FlashSaleData = [
    productName:"Airpod Pro",
    price:"N8,200",
    itemLeft:"345 items left",
-   progress:10,
+   progress:0.7,
    percent:" -33%"
 },
 {
@@ -13,7 +13,7 @@ export const FlashSaleData = [
    productName:"Watches",
    price:"N13,900",
    itemLeft:"40 items left",
-   progress:75,
+   progress:0.9,
    percent:" -40%"
 },
 {
@@ -21,7 +21,7 @@ export const FlashSaleData = [
    productName:"Hand Bags",
    price:"N7,999",
    itemLeft:"24 items left",
-   progress:50,
+   progress:0.5,
    percent:" -63%"
 },
 {
@@ -29,7 +29,7 @@ export const FlashSaleData = [
    productName:"Rechargeable fan",
    price:"N9,599",
    itemLeft:" 30 items left",
-   progress:89,
+   progress:0.5,
    percent:" -93%"
 },
 {
@@ -37,7 +37,7 @@ export const FlashSaleData = [
    productName:"Crocs",
    price:"N25,000",
    itemLeft:"67 items left",
-   progress:19,
+   progress:0.9,
   percent:" -13%"
 },
 {
@@ -45,7 +45,7 @@ export const FlashSaleData = [
    productName:"Hand Bags",
    price:"N16000",
    itemLeft:"26 items left",
-   progress:70,
+   progress:1,
     percent:" -43%"
 },
 {
@@ -53,7 +53,7 @@ export const FlashSaleData = [
    productName:"Shoes",
    price:"N5,000",
    itemLeft:"23 items left",
-   progress:80,
+   progress:0.8,
   percent:" -83%"
 },
 
@@ -62,7 +62,7 @@ export const FlashSaleData = [
    productName:"Sneakers",
    price:"N11,600",
    itemLeft:"52 items left",
-   progress:100,
+   progress:0.6,
     percent:" -50%"
 },
 {
@@ -70,7 +70,7 @@ export const FlashSaleData = [
    productName:"Slippers",
    price:"N14,645",
    itemLeft:"198 items left",
-   progress:100,
+   progress:1,
    percent:" -29%"
 },
 {
@@ -78,7 +78,7 @@ export const FlashSaleData = [
    productName:"Television",
    price:"N90,999",
    itemLeft:"49 items left",
-   progress:100,
+   progress:0.8,
    percent:" -89%"
 }
 ]

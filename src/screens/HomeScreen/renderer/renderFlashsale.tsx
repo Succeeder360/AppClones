@@ -10,8 +10,8 @@ const RenderFlashSaleItem = ({item}: FlashSaleTypes) => (
       <View style = {{marginVertical:12, right:"2%"}}>
      <Text style = {{}}>{item.productName}</Text>
      <Text style = {{fontWeight:"bold"}}>{item.price}</Text>
-     <Text style = {{}}>{item.itemLeft}</Text>
-    <ProgressBar progress={item.progress} color="lightorange"  style = {{top:5, borderRadius:10, height:7}}/>
+     <Text style = {{top:10, fontSize:10}}>{item.itemLeft}</Text>
+    <ProgressBar   progress={item.progress} color="orange"  style = {{top:15, borderRadius:10, height:7}}/>
      </View>
     </View>
 )
