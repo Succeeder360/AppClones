@@ -5,7 +5,7 @@ export const FlashSaleData = [
    productName:"Airpod Pro",
    price:"N8,200",
    itemLeft:"345 items left",
-   progress:80,
+   progress:10,
    percent:" -33%"
 },
 {

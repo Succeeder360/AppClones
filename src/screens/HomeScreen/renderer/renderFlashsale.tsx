@@ -1,6 +1,6 @@
 import { FlashSaleTypes } from "@/src/types/flashsalesTypes";
 import {View, Text, Image} from "react-native";
-
+import { ProgressBar } from "react-native-paper";
 const RenderFlashSaleItem = ({item}: FlashSaleTypes) => (
     <View style = {{ marginVertical:20, marginHorizontal:20, flex:1 }}>
       <View>
@@ -11,7 +11,7 @@ const RenderFlashSaleItem = ({item}: FlashSaleTypes) => (
      <Text style = {{}}>{item.productName}</Text>
      <Text style = {{fontWeight:"bold"}}>{item.price}</Text>
      <Text style = {{}}>{item.itemLeft}</Text>
-     <Text style = {{color:"orange"}}>{item.progress}</Text>
+    <ProgressBar progress={item.progress} color="lightorange"  style = {{top:5, borderRadius:10, height:7}}/>
      </View>
     </View>
 )
