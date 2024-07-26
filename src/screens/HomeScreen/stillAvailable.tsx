@@ -10,7 +10,7 @@ const StillAvailable = () => {
             <Text style = {{flex:1, fontWeight:"600"}}>STILL AVAILABLE !!! </Text>
             <Text style = {{color:"orange",fontWeight:"700", fontSize:12,}}>SEE ALL </Text>
            </View>
-           <FlatList style = {{top:40}} key={2}  numColumns={2} scrollEnabled = {false} data={StillAvailableData} renderItem={({item}) => <RenderStillAvailable item={item} />}/>
+           <FlatList data={StillAvailableData} keyExtractor={(item) => item.id} style = {{top:40}} numColumns={2} scrollEnabled = {false}  renderItem={({item}) => <RenderStillAvailable item={item} />}/>
         </View>
     )
 }
